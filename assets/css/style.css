@@ -129,7 +129,7 @@ h3, h2 {
   width: 80%;
   max-width: 960px;
   padding: 30px;
-  margin: 0 0 40px;
+  margin: 40px 0px 40px;
   background: #ffffff;
   border: 1px solid #dddddd;
 }
@@ -170,7 +170,7 @@ h3, h2 {
 
 .auth-image {
   float: left;
-  width: 200px;
+  width: 300px;
   height: auto;
   margin-top: 10px;
   margin-right: 25px;
@@ -230,10 +230,29 @@ input[type=submit] {
 @media only screen and (max-width: 640px) {
   #masthead {
     position: static;}
-  #section.main-section{
-    align-content: center;}
+  #main-section{
+    padding: 0px;
+    margin: 0px;}
   #logo{
     width: 100%;}
-  #nav.a{
-    float: left;}
+  nav{
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    float: none;}
+  #work-img{
+    align-content: center;
+    width: 100%;
+    float: none;
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;}
+  .auth-image{
+    clear: both;
+    display: block;
+    width: 100%;
+  }
+
   }
